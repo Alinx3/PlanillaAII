@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = os.environ.get("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")
+API_KEY = os.environ.get("OPENROUTER_API_KEY")
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 HORARIOS = {
